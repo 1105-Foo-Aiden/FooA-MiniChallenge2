@@ -7,13 +7,14 @@
 .adviceContainer {
   width: 500px;
   height: 300px;
+  position: relative;
 }
 .diceButton {
   position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
-  bottom: 30%;
+  bottom: -10%;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -34,8 +35,8 @@ button:hover {
     width: 95%;
   }
   .diceButton {
-    bottom: 27%;
-    position: absolute;
+    bottom: -8%;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;

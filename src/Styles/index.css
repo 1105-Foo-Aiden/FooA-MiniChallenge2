@@ -29,7 +29,7 @@ button:hover {
   box-shadow: 0px, 5px, 15px, 0 rgb(82, 255, 168);
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .adviceContainer {
     width: 95%;
   }

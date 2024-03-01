@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+.adviceContainer {
+  width: 500px;
+  height: 300px;
+}
+.diceButton {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.manrope {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+button:hover {
+  box-shadow: 0px, 5px, 15px, 0 rgb(82, 255, 168);
+}
+
+@media (max-width: 375px) {
+  .adviceContainer {
+    width: 95%;
+  }
+  .diceButton {
+    bottom: 27%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: hsl(218, 23%, 16%);
+}

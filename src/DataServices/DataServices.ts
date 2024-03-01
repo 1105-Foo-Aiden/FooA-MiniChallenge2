@@ -1,7 +1,7 @@
-//@ts-check
+import { Advice } from "../Interfaces/DataServices";
 
 export default async function GetAdvice() {
     const promise = await fetch("https://api.adviceslip.com/advice");
-      const data = await promise.json();
+      const data: Advice = await promise.json();
       return data;
 }

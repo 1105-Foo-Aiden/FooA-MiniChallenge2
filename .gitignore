@@ -4,9 +4,10 @@
 /node_modules
 /.pnp
 .pnp.js
-src/images
 style-guide.md
 /design
+
+
 # testing
 /coverage
 
